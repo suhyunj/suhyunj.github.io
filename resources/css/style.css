@@ -195,6 +195,76 @@ h1 {
 }
 
 /*------------------------------*/
+/*about page                    */
+/*------------------------------*/
+
+
+.about-logo {
+    text-align: center;
+}
+
+.about-logo img {
+    width: 18%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.about-info {
+    text-align: center;
+    color: #646464;
+}
+
+.about-info h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+}
+
+.about-info p {
+    font-weight: 500;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    word-spacing: 1px;
+    border-top: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+}
+
+.about-education {
+    text-align: center;
+    color: #646464;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.about-education h2 {
+    margin-left: 43%;
+    margin-right: 43%;
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #dddddd;
+}
+
+.about-education p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.school-name {
+    margin-top: 19px;
+    font-weight: 800;
+}
+
+/*------------------------------*/
 /*projects page                 */
 /*------------------------------*/
 
