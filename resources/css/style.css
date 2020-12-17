@@ -481,7 +481,7 @@ h4 {
 }
 
 /*------------------------------*/
-/*disaster relie                */
+/*disaster relief               */
 /*------------------------------*/
 
 .relief-description p {
@@ -522,6 +522,113 @@ h4 {
 
 .relief-bottom {
     margin-bottom: -20px;
+}
+
+/*------------------------------*/
+/*alive                         */
+/*------------------------------*/
+
+.alive-background {
+    background-color: #fff;
+}
+
+.alive-description {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.alive-description h3 {
+    margin-bottom: 60px;
+    font-family: orator-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+}
+
+.alive-description p {
+    text-indent: 2em;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.alive-description h4 {
+    text-align: center;
+    color: #fff;
+    font-family: orator-std, monospace;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.alive-title {
+    color: #585858;
+    margin-bottom: 150px;
+}
+
+.alive-title h3 {
+    margin-top: 100px;
+}
+
+
+.alive-blue {
+    background-color: #94cfff;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    
+    color: #fff;
+}
+
+.alive-design-value {
+    display: flex;
+    justify-content: center;
+}
+
+.alive-value {
+    background-color: #94cfff;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 70px;
+    
+    text-align: center;
+    color: #fff;
+    font-style: "Raleway";, "Arial";, "sans-serif";
+    letter-spacing: 1px;
+    box-shadow: 5px 5px 10px #adadad;
+}
+
+.alive-contextual {
+    margin-top: 100px;
+}
+
+.alive-title pre {
+    visibility: hidden;
+}
+
+.alive-button {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.alive-button a {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    
+    text-decoration: none;
+    color: #585858;
+    font-family: orator-std, monospace;
+    
+    border-radius: 20px;
 }
 /*------------------------------*/
 /*footer                        */
