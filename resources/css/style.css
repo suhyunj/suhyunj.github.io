@@ -630,6 +630,14 @@ h4 {
     
     border-radius: 20px;
 }
+
+.alive-process img {
+    width: 100%;
+    height: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
 /*------------------------------*/
 /*footer                        */
 /*------------------------------*/
