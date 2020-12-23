@@ -662,6 +662,25 @@ h4 {
     padding-left: 3%;
     padding-right: 3%;
 }
+
+/*------------------------------*/
+/*alive                         */
+/*------------------------------*/
+
+.hebron-background {
+    margin-bottom: 50px;
+}
+
+.hebron-poster2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hebron-poster2 img {
+    width: 35%;
+    height: auto;
+}
+
 /*------------------------------*/
 /*footer                        */
 /*------------------------------*/
