@@ -678,7 +678,84 @@ h4 {
 
 .hebron-poster2 img {
     width: 35%;
+    height: auto; 
+}
+
+/*------------------------------*/
+/*greenshield                   */
+/*------------------------------*/
+
+.greenshield-photo img {
+    width: 100%;
     height: auto;
+}
+
+.greenshield-description {
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #4b4b4b
+}
+
+.greenshield-description h3 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.greenshield-description h2 {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.journey h2 {
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.journey h3 {
+    margin-top: 4px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.journey-title {
+    display: inline-block;
+    border-bottom: 4px solid #5a5a5a;
+    font-size: 23px;
+}
+
+.first-journey {
+    background-color: #F8F6E9;
+    padding-bottom: 60px;
+    margin-bottom: 80px;
+}
+
+.second-journey {
+    background-color: #F2FDFF;
+    padding-bottom: 60px;
+    margin-bottom: 80px;
+}
+
+.first-journey .journey {
+    color: #d3aa00;
+    padding-top: 100px;
+    margin-top: 30px;
+}
+
+.second-journey .journey {
+    color: #75bdfc;
+    padding-top: 100px;
+    margin-top: 30px;
+}
+
+.greenshield-sub {
+    visibility: hidden;
 }
 
 /*------------------------------*/
@@ -731,4 +808,3 @@ footer p {
 .ion-social-facebook:hover {color: #608ef0;}
 .ion-email:hover {color: #5eb2f2;}
 .ion-social-instagram:hover {color: #f2728a;}
-
