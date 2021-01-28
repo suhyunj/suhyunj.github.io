@@ -758,6 +758,15 @@ h4 {
     visibility: hidden;
 }
 
+.journey-front {
+    color:  #d3aa00;
+    border-bottom: 4px solid #d3aa00;
+}
+
+.journey-middle {
+    color: #75bdfc;
+    border-bottom: 4px solid #75bdfc;
+}
 /*------------------------------*/
 /*footer                        */
 /*------------------------------*/
