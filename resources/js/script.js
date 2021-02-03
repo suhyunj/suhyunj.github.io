@@ -1,3 +1,4 @@
+//SMOOTH SCROLLING
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -35,15 +36,15 @@ $('a[href*="#"]')
     }
   });
 
-
+//IMAGE ZOOM
 // Example:
 $(document).ready(function(){
-  $('a.photo').zoom({url: 'resources/img/greenshield/serviceblueprint.svg'});
+  $('#example').zoom({url: 'resources/img/greenshield/serviceblueprint.svg'});
 });
 
 // Using Colorbox with Zoom
 $(document).ready(function(){
-  $('a.photo').zoom({
+  $('#example').zoom({
     url: 'resources/img/greenshield/serviceblueprint.svg', 
     callback: function(){
       $(this).colorbox({href: this.src});
@@ -52,7 +53,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $('img')
+  $('#example')
     .wrap('<span style="display:inline-block"></span>')
     .css('display', 'block')
     .parent()
