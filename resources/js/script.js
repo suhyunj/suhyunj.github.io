@@ -34,3 +34,30 @@ $('a[href*="#"]')
       }
     }
   });
+
+
+// Example:
+$(document).ready(function(){
+  $('a.photo').zoom({url: 'resources/img/greenshield/serviceblueprint.svg'});
+});
+
+// Using Colorbox with Zoom
+$(document).ready(function(){
+  $('a.photo').zoom({
+    url: 'resources/img/greenshield/serviceblueprint.svg', 
+    callback: function(){
+      $(this).colorbox({href: this.src});
+    }
+  });
+});
+
+$(document).ready(function(){
+  $('img')
+    .wrap('<span style="display:inline-block"></span>')
+    .css('display', 'block')
+    .parent()
+    .zoom();
+});
+
+$('#example').zoom(); // add zoom
+$('#example').trigger('zoom.destroy'); // remove zoom
