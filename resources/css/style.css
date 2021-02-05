@@ -205,55 +205,57 @@ h1 {
 
 
 .about-logo {
-    text-align: center;
+    text-align: right;
 }
 
 .about-logo img {
-    width: 20%;
+    width: 40%;
     height: auto;
     display: inline-block;
-    margin-bottom: 15px;
+    margin-right: 3%;
 }
 
 .about-info {
-    text-align: center;
+    text-align: left;
     color: #646464;
+    margin-top: 2%;
 }
 
 .about-info h1 {
+    display: inline-block;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 1.5%;
-    margin-top: 1.5%;
+    text-align: left;
 }
 
 .about-info p {
     font-weight: 500;
+    font-size: 14px;
     
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 30%;
     letter-spacing: 1px;
-    padding-bottom: 20px;
     padding-top: 20px;
     word-spacing: 1px;
     
 }
 
 .about-education {
-    text-align: center;
+    text-align: left;
     color: #646464;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 
 .about-education h2 {
-    margin-left: 43%;
-    margin-right: 43%;
+    display: inline-block;
+    text-align: left;
+    padding-right: 130px;
     padding-bottom: 5px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 17px;
     letter-spacing: 1.5px;
-    margin-bottom: 15px;
+
     border-bottom: 2px solid #dddddd;
 }
 
@@ -261,11 +263,6 @@ h1 {
     font-size: 13px;
     letter-spacing: 1px;
     line-height: 1.5;
-}
-
-.school-name {
-    margin-top: 19px;
-    font-weight: 800;
 }
 
 /*------------------------------*/
