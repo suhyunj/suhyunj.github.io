@@ -209,7 +209,7 @@ h1 {
 }
 
 .about-logo img {
-    width: 40%;
+    width: 50%;
     height: auto;
     display: inline-block;
     margin-right: 3%;
@@ -218,7 +218,7 @@ h1 {
 .about-info {
     text-align: left;
     color: #646464;
-    margin-top: 2%;
+    margin-top: 11%;
 }
 
 .about-info h1 {
