@@ -664,7 +664,7 @@ h4 {
 }
 
 /*------------------------------*/
-/*alive                         */
+/*hebron                        */
 /*------------------------------*/
 
 .hebron-background {
@@ -733,25 +733,23 @@ h4 {
 .first-journey {
     background-color: #F8F6E9;
     padding-bottom: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 110px;
 }
 
 .second-journey {
     background-color: #F2FDFF;
     padding-bottom: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 110px;
 }
 
 .first-journey .journey {
     color: #d3aa00;
     padding-top: 100px;
-    margin-top: 30px;
 }
 
 .second-journey .journey {
     color: #75bdfc;
     padding-top: 100px;
-    margin-top: 30px;
 }
 
 .greenshield-sub {
@@ -761,7 +759,7 @@ h4 {
 .journey-front {
     color:  #d3aa00;
     border-bottom: 4px solid #d3aa00;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 .journey-middle {
@@ -772,10 +770,53 @@ h4 {
 .last-journey {
     background-color: white;
     padding-top: 100px;
-    margin-top: 30px;
-    margin-bottom: 60px;
+   
+    margin-bottom: 160px;
 }
 
+.greenshield-button {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 120px;
+    margin-bottom: 140px;
+}
+
+.greenshield-button a {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 13px;
+    
+    border: 2px solid;
+    border-radius: 20px;
+    
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+}
+
+.green-first a {
+    background-color: #F8F6E9;
+    color: #d3aa00;
+}
+
+.green-second a {
+    background-color: #F2FDFF;
+    color: #75bdfc;
+}
+
+.green-last a {
+    background-color: white;
+    color: #5a5a5a;
+}
+
+.last-journey p {
+    text-align: right;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 13px;
+}
 
 /*------------------------------*/
 /*footer                        */
