@@ -280,7 +280,8 @@ h1 {
 
 .contact-info a {
     text-decoration: none;
-    color: #00a7ff;
+    color: #ff71de;
+    font-weight: 500;
 }
 
 .contact-info p {
@@ -303,16 +304,47 @@ h1 {
     margin-bottom: 60px;
 }
 
-.badge{ 
+/*.badge{ 
   display:inline-block;
   white-space: nowrap;
   padding:10px;
-  background:#3498DB;
+  background:#ff71de;
   position:absolute; 
   top:50%; left:50%; font-size:14px; text-transform:uppercase;
   transform: translateY(-50%) translateX(100%);
   color:#fff;
-}
+}*/
+
+.badge {
+     display: inline-block;
+    white-space: nowrap;
+    
+      width: 160px;
+      height: 40px;
+      background: #ff71de;
+      position: absolute;
+    top:50%; left:50%;
+      border-radius: 9px;
+    
+    color: white;
+    padding-top: 12px;
+    font-size: 14px;
+    transform:uppercase;
+    
+  transform: translateY(-50%) translateX(100%);
+   
+    }
+.badge:before {
+      content: "";
+      position: absolute;
+      right: 100%;
+      top: 12px;
+      width: 0;
+      height: 0;
+      border-top: 8px solid transparent;
+      border-right: 18px solid #ff71de;
+      border-bottom: 8px solid transparent;
+    }
 
 /*------------------------------*/
 /*projects page                 */
