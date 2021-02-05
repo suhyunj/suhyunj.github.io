@@ -38,6 +38,11 @@ h1 {
     margin-bottom: 30px;
 }
 
+.name a {
+    text-decoration: none;
+    color: black;
+}
+
 .panel, 
 .bar {
     width: auto;
@@ -299,8 +304,8 @@ h1 {
   position:relative;
   background: whitesmoke;
   margin:0 auto;
-    margin-top: -90px;
-    padding-top: 60px;
+    margin-top: -80px;
+    padding-top: 50px;
     margin-bottom: 60px;
 }
 
@@ -325,6 +330,7 @@ h1 {
       position: absolute;
     top:50%; left:50%;
       border-radius: 9px;
+    box-shadow: 7px 6px 5px #a3a3a3;
     
     color: white;
     padding-top: 12px;
