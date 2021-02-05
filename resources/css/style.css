@@ -273,6 +273,7 @@ h1 {
     margin-top: -60px;
     position:relative;
   background:#C0392B;
+    text-align: center;
 }
 
 .contact-info i {
@@ -288,6 +289,7 @@ h1 {
 
 .contact-info p {
     font-size: 15px;
+    margin-bottom: 10px;
 }
 
 .contact-info .location {
