@@ -18,9 +18,7 @@
 </html>
 
 <body>
-
     <div class="content">
-
         <header>
             <div class="row panel">
                 <h1 class="xlarge">Interaction Designer</h1>
@@ -37,33 +35,32 @@
         </header>
 
         <section>
-            <div class="row contact-info">
 
-                <div class="about-education">
-                    
-                    <p class="school-name location"><i class='ion-ios-location'></i> Currently Located in Vacouver</p>
-                    <p class="school-name">Email</p>
-                    <a href="mailto:suhyun9861@gmail.com">
-                        <p>suhyun9861@gmail.com</p>
+            <div class="container contact-info about-education">
+
+                <span class="badge">Click to Contact</span>
+                
+                <p class="school-name location"><i class='ion-ios-location'></i> Currently Located in Vacouver</p>
+                <p class="school-name">Email</p>
+                <a href="mailto:suhyun9861@gmail.com">
+                    <p>suhyun9861@gmail.com</p>
+                </a>
+
+                <p class="school-name">Instagram Direct Message
+                <p>
+                    <a href="https://www.instagram.com/suestudi_o">
+                        <p>@suestudi_o</p>
                     </a>
 
-                    <p class="school-name">Instagram Direct Message
-                    <p>
-                        <a href="https://www.instagram.com/suestudi_o">
-                            <p>@suestudi_o</p>
-                        </a>
-
-                    <p class="school-name">Behance
-                    <p>
-                        <a href="https://www.behance.net/suhyunjung2">
-                            <p>Su Hyun Jung</p>
-                        </a>
-                </div>
+                <p class="school-name">Behance
+                <p>
+                    <a href="https://www.behance.net/suhyunjung2">
+                        <p>Su Hyun Jung</p>
+                    </a>
 
             </div>
 
         </section>
-
 
         <footer>
             <div class="row">
@@ -79,5 +76,16 @@
                 <p>Copyright &copy;2020 by Su Hyun Jung. All rights reserved.</p>
             </div>
         </footer>
+
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+        <script src="vendors/js/jquery.mousefollower.js"></script>
+        
+        <script>
+            $(function() {
+                $('.container').mousefollower();
+            });
+
+        </script>
+
     </div>
 </body>
