@@ -780,8 +780,6 @@ h4 {
 .greenshield-description {
     font-family: 'Overpass', sans-serif;
     text-align: center;
-    margin-left: 2%;
-    margin-right: 2%;
     color: #4b4b4b
 }
 
@@ -819,24 +817,23 @@ h4 {
 
 .first-journey {
     background-color: #F8F6E9;
-    padding-bottom: 60px;
-    margin-bottom: 110px;
+    padding-bottom: 160px;
 }
 
 .second-journey {
     background-color: #F2FDFF;
     padding-bottom: 60px;
-    margin-bottom: 110px;
+    margin-bottom: 
 }
 
 .first-journey .journey {
     color: #d3aa00;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .second-journey .journey {
     color: #75bdfc;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .greenshield-sub {
@@ -856,30 +853,29 @@ h4 {
 
 .last-journey {
     background-color: white;
-    padding-top: 100px;
-   
-    margin-bottom: 160px;
+    padding-top: 200px;
 }
 
 .greenshield-button {
     display: flex;
     justify-content: center;
     list-style: none;
-    margin-top: 120px;
-    margin-bottom: 140px;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .greenshield-button a {
     text-decoration: none;
     margin-left: 20px;
     margin-right: 20px;
-    padding: 13px;
+    padding: 11px;
     
-    border: 2px solid;
-    border-radius: 20px;
+    border: 1.5px solid;
+    border-radius: 15px;
     
     font-family: 'Overpass', sans-serif;
     font-weight: 600;
+    font-size: 15px;
 }
 
 .green-first a {
@@ -913,7 +909,8 @@ h4 {
 
 .greenshield-insight h2 {
     margin-bottom: 5px;
-    font-weight: 300;
+    font-size: 25px;
+    font-weight: 400;
 }
 
 .greenshield-description h4 {
