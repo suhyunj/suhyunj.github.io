@@ -905,6 +905,22 @@ h4 {
     font-size: 13px;
 }
 
+.greenshield-insight h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 200;
+}
+
+.greenshield-insight h2 {
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.greenshield-description h4 {
+    margin-top: 10px;
+    color: #626262;
+}
+
 /*------------------------------*/
 /*footer                        */
 /*------------------------------*/
