@@ -1025,6 +1025,70 @@ ul {
 }
 
 /*------------------------------*/
+/*relief                        */
+/*------------------------------*/
+
+.relief-background {
+    margin-top: 50px;
+}
+
+.relief-main {
+    text-align: center;
+    color: #333333;
+}
+
+.relief-main h2 {
+    word-spacing: 2px;
+}
+
+.relief-main h3 {
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+
+.relief-main p {
+    line-height: 35px;
+    word-spacing: 1.5px;
+}
+
+.relief-green {
+    background-color: #DDF3BC;
+    margin-top: 130px;
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+
+.relief-green p {
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.relief-yellow {
+    padding-top: 120px;
+}
+
+.relief-yellow img,
+.relief-green img {
+    width: 100%;
+    height: auto;
+}
+
+.relief-yellow p {
+    margin-top: 60px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 50px;
+}
+
+.relief-wireframe img {
+    width: 65%;
+}
+
+.relief-insights1 {
+    margin-bottom: 50px;
+}
+
+/*------------------------------*/
 /*footer                        */
 /*------------------------------*/
 
