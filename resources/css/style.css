@@ -225,7 +225,7 @@ html {
 
 .relief {
     margin-top: -16%;
-    margin-left: 10%;
+    margin-left: 14%;
 }
 
 .service-blueprint:hover .greenshield,
@@ -1109,7 +1109,7 @@ ul {
 
 .clickable-link1 {
     text-align: right;
-    padding-right: 15px
+    padding-right: 15px;
 }
 
 .clickable-link2 {
