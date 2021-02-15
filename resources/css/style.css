@@ -1039,6 +1039,7 @@ ul {
 
 .relief-main h2 {
     word-spacing: 2px;
+    font-size: 27px;
 }
 
 .relief-main h3 {
@@ -1059,8 +1060,8 @@ ul {
 }
 
 .relief-green p {
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .relief-yellow {
@@ -1075,8 +1076,8 @@ ul {
 
 .relief-yellow p {
     margin-top: 60px;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 80px;
+    margin-right: 80px;
     margin-bottom: 50px;
 }
 
@@ -1084,10 +1085,55 @@ ul {
     width: 65%;
 }
 
+.relief-wireframe h3 {
+    font-weight: 500;
+}
+
 .relief-insights1 {
     margin-bottom: 50px;
 }
 
+.relief-insights img {
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.relief-swot img {
+    margin-top: 100px;
+}
+
+.relief-research {
+    margin-bottom: 30px;
+}
+
+.clickable-link1 {
+    text-align: right;
+    padding-right: 15px
+}
+
+.clickable-link2 {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.clickable-link1,
+.clickable-link2 {
+    padding-top:60px; 
+}
+
+.clickable-link1 a,
+.clickable-link2 a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #526438;
+}
+
+.clickable-link1 a:hover,
+.clickable-link2 a:hover {
+    color: #b2bea0;
+}
 /*------------------------------*/
 /*footer                        */
 /*------------------------------*/
