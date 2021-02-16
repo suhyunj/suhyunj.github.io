@@ -1,13 +1,85 @@
 /* 1024 px ~ 1200 px */
 @media only screen and (max-width: 1200px) {
+    .index-box {
+        height: 42%;
+        width: 100%;
+    }
+    .instagram {
+        margin-top: 25%;
+    }
+    .about-info p {
+        font-size: 14px;
+        line-height: 23px
+    }
+    .about-logo img {
+    width: 60%;
+    }
 }
 
 /*768px ~ 1023 px */
 @media only screen and (max-width: 1023px) {
+    .index-box {
+        height: 50%;
+        width: 100%;
+    }
+    .about-info {
+        padding-right: 30px;
+        margin-top: 0px;
+    }
+    .about-logo img {
+    width: 90%;
+    }
 }
 
 /* 481 px ~ 767 px */
 @media only screen and (max-width: 767px) {
+    .index-box {
+        height: 51%;
+        width: 100%;
+    }
+    .index-name {
+        margin-top: 35px;
+        margin-bottom: 5px;
+    }
+    .index-btn a {
+        font-size: 11px;
+        padding: 7px;
+        border-radius: 15px;
+        margin-right: -7px;
+        margin-left: 20px;
+    }
+    .index-header {
+        margin-bottom: 20px;
+    }
+    .index-body h2 {
+        font-size: 2rem;
+    }
+    .badge {
+        width: 160px;
+        height: 30px;
+        padding-top: 10px;
+        font-size: 11px;
+        top: 50%;
+        left: 50%;
+        transform: translateY(620%) translateX(6%);
+    }
+    .badge:before {
+        top: 10px;
+        border-top: 5px solid transparent;
+        border-right: 12px solid #FF9494;
+        border-bottom: 5px solid transparent;
+    }
+    .about-middle h3,
+    .about-middle p {
+        margin-left: 5%;
+    }
+    .about-info {
+        padding-right: 0px;
+        padding-left: 5%;
+    }
+    .about-logo img {
+        margin-bottom: 10px;
+    }
 }
 
 /* ~ 480 px */
