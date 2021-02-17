@@ -63,6 +63,14 @@
     margin-top: 30px;
     margin-left: -10px;
     }
+    
+    /*Alive*/
+    .alive-value {
+    height: 125px;
+    width: 125px;
+    padding-top: 55px;
+    font-size: 13px;
+    }
 }
 
 /* 481 px ~ 767 px */
@@ -159,6 +167,20 @@
         padding-left: 25px;
         padding-right: 25px;
         margin-bottom: 50px;
+    }
+    .alive-design-value {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .alive-value {
+        margin-top: 25px;
+    }
+    .alive-button {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .alive-button li {
+        margin-bottom: 40px;
     }
    
 }
