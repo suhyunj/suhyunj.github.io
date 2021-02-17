@@ -958,6 +958,9 @@ ul {
 .empire-container {
     margin-top: 30px;
 }
+.empire-sketch-img img{
+    width: 60%;
+}
 
 /* Next & previous buttons */
 .empire-prev,
@@ -967,7 +970,7 @@ ul {
 
   width: auto;
   padding: 16px;
-  margin-top: -400px;
+  margin-top: -360px;
   color: #434343;
   font-weight: bold;
   font-size: 28px;

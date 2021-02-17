@@ -14,6 +14,31 @@
     .about-logo img {
     width: 60%;
     }
+     
+    /*Empire Life*/
+    .empire-prev,
+    .empire-next {
+      margin-top: -330px;
+    }
+    .empire-sketch-img img {
+        width: 85%;
+    }
+    .empire-next {
+        margin-right: 6%;
+    }
+
+    .empire-prev {
+        margin-left: 6%;
+    }
+    .empire-numbertext {
+      margin-left: 10%;
+    }
+    .empire-textinsight {
+    margin-top: 50px;
+    }
+    .empire-interview-padding {
+        padding-left: 25px;
+    }
 }
 
 /*768px ~ 1023 px */
@@ -28,6 +53,15 @@
     }
     .about-logo img {
     width: 90%;
+    }
+    .empire-prev,
+    .empire-next {
+      margin-top: -250px;
+      font-size: 18px;
+    }
+    .empire-textinsight {
+    margin-top: 30px;
+    margin-left: -10px;
     }
 }
 
@@ -80,7 +114,7 @@
     .about-logo img {
         margin-bottom: 10px;
     }
-}
+   
 
 /* ~ 480 px */
 @media only screen and (max-width: 480px) {
