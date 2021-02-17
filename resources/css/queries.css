@@ -171,6 +171,8 @@
         padding-right: 25px;
         margin-bottom: 50px;
     }
+    
+    /*Alive*/
     .alive-design-value {
         display: flex;
         flex-wrap: wrap;
@@ -184,6 +186,28 @@
     }
     .alive-button li {
         margin-bottom: 40px;
+    }
+    
+    /*Relief*/
+    .relief-green p,
+    .relief-yellow p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .relief-insights img {
+        width: 100%;
+    }
+    .relief-wireframe img {
+        width: 95%;
+    }
+    .clickable-link1 {
+        text-align: center;
+        padding-right: 0px;
+    }
+    .clickable-link2 {
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 15px;
     }
    
 }
