@@ -79,7 +79,7 @@
 /* 481 px ~ 767 px */
 @media only screen and (max-width: 767px) {
     .index-box {
-        height: 57%;
+        height: 59%;
         width: 100%;
     }
     .index-name {
