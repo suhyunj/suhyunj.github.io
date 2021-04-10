@@ -1137,6 +1137,110 @@ ul {
 .clickable-link2 a:hover {
     color: #b2bea0;
 }
+
+/*------------------------------*/
+/*bits                          */
+/*------------------------------*/
+
+.bits img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.bits a {
+  text-decoration: none;
+}
+
+.bits h4 {
+  margin-top: 60px;
+}
+
+.bits h3 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bits-pink {
+  background-color: #f2b8b8;
+  margin-top: 0;
+  padding-top: 160px;
+  padding-bottom: 180px;
+}
+
+.bits-pink h2,
+.bits-pink h3 {
+  color: white;
+}
+
+.bits-hero {
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bits-text h2 {
+  margin-bottom: 30px;
+}
+
+.bits-questions {
+  background-color: #f2b8b8;
+  color: white;
+  
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 12px;
+  
+  margin-top: -20px;
+}
+
+.bits-bottom {
+  margin-bottom: 170px;
+}
+
+.bits-none {
+  visibility: hidden;
+}
+
+.bits-photo h3 {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+/* Next & previous buttons */
+.bits-prev,
+.bits-next {
+  cursor: pointer;
+  position: absolute;
+
+  width: auto;
+  padding: 16px;
+  margin-top: -380px;
+  color: #f2b8b8;
+  font-weight: bold;
+  font-size: 28px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.bits-next {
+  right: 0;
+    margin-right: 18%;
+}
+
+.bits-prev {
+    left: 0;
+    margin-left: 18%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.bits-prev:hover,
+.bits-next:hover {
+  color: rgba(103, 103, 103, 0.8);
+}
+
 /*------------------------------*/
 /*footer                        */
 /*------------------------------*/
