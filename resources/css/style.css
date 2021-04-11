@@ -230,7 +230,13 @@ html {
   margin-left: 14%;
 }
 
+.vfw {
+  margin-top: -18%;
+  margin-left: 8%;
+}
+
 .service-blueprint:hover .greenshield,
+.service-blueprint:hover .vfw,
 .portfolio-alive:hover .alive,
 .portfolio-hopper:hover .hopper,
 .portfolio-relief:hover .relief {
